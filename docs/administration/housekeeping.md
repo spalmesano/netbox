@@ -10,6 +10,7 @@ This command can be invoked directly, or by using the shell script provided at `
 ```shell
 ln -s /opt/netbox/contrib/netbox-housekeeping.sh /etc/cron.daily/netbox-housekeeping
 ```
+# this is a test
 
 !!! note
     On Debian-based systems, be sure to omit the `.sh` file extension when linking to the script from within a cron directory. Otherwise, the task may not run.
